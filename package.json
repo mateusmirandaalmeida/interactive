@@ -9,12 +9,15 @@
     },
     "scripts": {
         "dev": "webpack-dev-server --config ./config/webpack.dev.js",
-        "prod": "webpack --config ./config/webpack.dev.js && webpack --config ./config/webpack.prod.js"
+        "prod": "webpack --config ./config/webpack.dev.js"
     },
     "author": "Mateus Miranda de Almeida.",
     "license": "MIT",
     "dependencies": {
-        "phaser": "^2.4.7"
+        "capivarajs": "^3.5.0",
+        "node-sass": "^4.9.0",
+        "phaser": "^2.4.7",
+        "sass-loader": "^6.0.7"
     },
     "keywords": [
         "mateus miranda",
